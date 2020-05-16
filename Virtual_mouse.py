@@ -45,7 +45,7 @@ while(1):
         cy = round(cy1/2+cy2/2)
         cv.circle(img,(cx,cy),2,(0,0,255),2)
         mouseloc = mlocold+((cx,cy)-mlocold)/damfac
-        mouse.position = (round(sx - (mouseloc[0]*sx/camx)),round((mouseloc[1]*sy*/camy)))
+        mouse.position = (round(sx - (mouseloc[0]*sx/camx)),round((mouseloc[1]*sy/camy)))
         mlocold = mouseloc
       
     elif(len(conts)==1):
