@@ -1,13 +1,14 @@
-from cv2 import cv2
-img = cv2.imread('data\lena.jpg',1)
-img = cv2.resize(img,(512,512))
-g_blur = cv2.GaussianBlur(img,(3,3),0)
-blur = cv2.blur(img,(3,3))
-bilatblur = cv2.bilateralFilter(img,10,50,50)
-median = cv2.medianBlur(img,5)
-cv2.imshow('original',img)
-cv2.imshow('blur',blur)
-cv2.imshow('g_blur',g_blur)
-cv2.imshow('bilat_blur',bilatblur)
-cv2.imshow('median',median)
+import cv2
+import numpy as np 
+from matplotlib import pyplot as plt 
+
+cap = cv2.VideoCapture(0)
+img = cv2.imread("data\\lena.jpg")
+cv2.imshow("img frame",img)
 cv2.waitKey(0)
+while(cap.isOpened()):
+    ret,frame = cap.read()
+    
+    cv2.imshow("frame",frame)
+    if cv2.waitKey(1) & 0xFF == ord('q'):
+        break
