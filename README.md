@@ -16,7 +16,7 @@ Using Python CV2 , simple computer vision scripts have been written.
   
   <li><b>game_automation.py</b> is a script which uses Computer vision to play the famous T Rex Game</li>
   
-  ![trex game automation]https://github.com/Harsh1347/OpenCV_Work/blob/master/data/trex_automation.gif
+  ![trex game automation](https://github.com/Harsh1347/OpenCV_Work/blob/master/data/trex_automation.gif)
   
   <li><b>object_tracking.py</b> is a script which uses contours to detect and track motion</li>
   
