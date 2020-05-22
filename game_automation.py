@@ -1,8 +1,6 @@
 import cv2
-import time
 import numpy as np 
 import pyautogui
-import wx
 from pynput.keyboard import Key, Controller
 keyboard = Controller()
 
