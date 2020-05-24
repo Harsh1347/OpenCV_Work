@@ -3,7 +3,7 @@ import numpy as np
 import pyautogui
 
 fourcc = cv2.VideoWriter_fourcc(*'XVID')
-out = cv2.VideoWriter('data//output.avi', fourcc, 20.0, (1366,768))
+out = cv2.VideoWriter('output.avi', fourcc, 20.0, (1366,768))
 
 while(True):                                
     img = pyautogui.screenshot()
