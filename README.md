@@ -14,7 +14,7 @@ Using Python CV2 , simple computer vision scripts have been written.
   
   ![invisible](https://github.com/Harsh1347/OpenCV_Work/blob/master/data/invisible.gif)
   
-  <li><b>game_automation.py</b> is a script which uses Computer vision to play the famous T Rex Game</li>
+  <li><b>game_automation.py</b> is a script which uses OpenCV and Pyautogui lib to play the famous T Rex Game</li>
   
   ![trex game automation](https://github.com/Harsh1347/OpenCV_Work/blob/master/data/trex_automation.gif)
   
