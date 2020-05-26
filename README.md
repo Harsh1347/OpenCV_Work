@@ -1,4 +1,4 @@
-# OpenCV Work
+# OpenCV Python Work
 <br>
 Using Python CV2 , simple computer vision scripts have been written.
 <ul>
