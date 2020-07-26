@@ -1,6 +1,7 @@
 # OpenCV Python Work
 <br>
 Using Python CV2 , simple computer vision scripts have been written.
+
 <ul>
   <li><b>read_write.py</b> shows how to load and display images</li>
   <li><b>CamCap.py</b> uses your webcam as the input and detects faces </li>
