@@ -1,3 +1,4 @@
 env
 ./StreamlitApp/env
 ./StreamlitApp/.vscode
+./StreamlitApp/.vscode/settings.json
